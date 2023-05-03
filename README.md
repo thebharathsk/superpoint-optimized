@@ -1,8 +1,7 @@
 ## Description
 This is an optimized version of SuperPoint- the popular keypoint detection and description framework. We make two changes to the architecture:
-
-    1. We replace the encoder in the original SuperPoint with a lighter MobileNet-v2 encoder
-    2. The network expects a 3 channel RGB input instead of a grayscale input. To extract features from a grayscale image of shape HxWx1, repeat the image along last dimension to create a HxWx3 input
+1. We replace the encoder in the original SuperPoint with a lighter MobileNet-v2 encoder
+2. The network expects a 3 channel RGB input instead of a grayscale input. To extract features from a grayscale image of shape HxWx1, repeat the image along last dimension to create a HxWx3 input
 
 ## Files
 1. `model.py` => contains the model definition and the forward function
