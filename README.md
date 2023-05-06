@@ -20,7 +20,7 @@ This is an optimized version of SuperPoint- the popular keypoint detection and d
 <!--## Evaluation on HPatches-->
 ## Results
 
-## Inference
+### Inference
 **Hardware** : 
 1. 13th Gen Intel(R) Core(TM) i9-13900K CPU
 2. 128GB RAM
