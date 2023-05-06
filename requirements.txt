@@ -1,2 +1,5 @@
 torch==2.0.0+cu117
 timm==0.6.13
+opencv==4.7.0
+numpy==1.23.5
+matplotlib==3.7.1

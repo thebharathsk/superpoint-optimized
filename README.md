@@ -1,3 +1,4 @@
+![Sample Result](data/results.png)
 ## Description
 This is an optimized version of SuperPoint- the popular keypoint detection and description framework. We make two changes to the architecture:
 1. We replace the encoder in the original SuperPoint with a lighter MobileNet-v2 encoder
@@ -7,17 +8,17 @@ This is an optimized version of SuperPoint- the popular keypoint detection and d
 1. `model.py` => contains the model definition and the forward function
 2. `superpoint_opt.pt` => TorchScript Model
 3. `superpoint_opt.pth` => model weights
-<!-- 4. test.py => code to test the model -->
+4. `test.py` => code to test the model
 
-<!-- ## Testing
+## Testing
 1. First install requirements
 
     `pip install -r requirements.txt`
 2. Test the code
 
-    `python test.py` -->
+    `python test.py` --> saves the results in as `out_matches.png`
 <!--## Evaluation on HPatches-->
-<!--## Results-->
+## Results
 
 ## Inference
 **Hardware** : 
